@@ -15,7 +15,7 @@ end
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
-  !!arr.uniq.combination(2).detect { |a, b| a + b == n }
+  !!arr.combination(2).detect { |a, b| a + b == n }
 end
 
 # Part 2
